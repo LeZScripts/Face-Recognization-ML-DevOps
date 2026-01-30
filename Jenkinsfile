@@ -2,11 +2,10 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_NAME = 'face_recognition'
-        PYTHON_HOME  = '"C:\Users\Dell\AppData\Local\Microsoft\WindowsApps\python.exe"'
-        VENV_DIR     = 'venv'
-        PUPPET_BIN   = 'C:/Program Files/Puppet Labs/Puppet/bin/puppet.bat'
-    }
+    PROJECT_NAME = 'face_recognition'
+    VENV_DIR     = 'venv'
+    PUPPET_BIN   = 'C:/Program Files/Puppet Labs/Puppet/bin/puppet.bat'
+}
 
     options {
         timeout(time: 1, unit: 'HOURS')
