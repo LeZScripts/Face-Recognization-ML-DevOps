@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PROJECT_NAME = 'face_recognition'
-        PYTHON_HOME  = 'C:/Users/ythom/AppData/Local/Programs/Python/Python310/python.exe'
+        PYTHON_HOME  = '"C:\Users\Dell\AppData\Local\Microsoft\WindowsApps\python.exe"'
         VENV_DIR     = 'venv'
         PUPPET_BIN   = 'C:/Program Files/Puppet Labs/Puppet/bin/puppet.bat'
     }
